@@ -7,7 +7,6 @@ header {
     background-size: cover;
     background-position: center;
     height: 250px;
-
     display: flex;
     flex-direction: column;     /* Arrange items top → bottom */
     justify-content: space-between; /* Push title to top, nav to bottom */
@@ -17,7 +16,7 @@ header {
 header h1 {
     text-align: center;
     font-size: 2rem;
-    margin: 0;
+    margin: 10;
 }
 
 nav {
@@ -34,13 +33,14 @@ nav a {
 
 .album-container {
     display: grid;
-    grid-template-columns: 400px 500px;
-    gap: 10px;
-    padding: 20px;
+    grid-template-columns: repeat(3, 500px);
+    justify-content: space-between;
+    gap: 20px;
+    padding: 50px;
     
 }
 
-.song:hover {
+.album:hover {
     background-color: #1e1e1e;
     border-radius: 10px;
     overflow: hidden;
@@ -52,7 +52,7 @@ nav a {
     transition: 0.3s;
 }
 
-.song-1 {
+.album-1 {
     background-color: #1e1e1e;
     border-radius: 10px;
     overflow: hidden;
@@ -62,12 +62,310 @@ nav a {
    
 }
 
-.song-2 {
+.album-2 {
     background-color: #1e1e1e;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
     padding: 10px;
-   
+}
+
+.album-2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.date {
+  font-size: 15px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);  /* semi-transparent gray */
+  margin-top: 6px;
+  letter-spacing: 0.2px;
+}
+
+.album-3 {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 10px;
+}
+
+.album-3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.album-4 {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 10px;
+}
+
+.album-4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.album-5 {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 10px;
+}
+
+.album-5 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.album-6 {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 10px;
+}
+
+.album-6 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.album-7 {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 10px;
+}
+
+.album-7 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.album-8 {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 10px;
+}
+
+.album-8 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.album-9 {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 10px;
+}
+
+.album-9 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.album-10 {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 10px;
+}
+
+.album-10 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.album-11 {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 10px;
+}
+
+.album-11 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.album-12 {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 10px;
+}
+
+.album-12 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.album-13 {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 10px;
+}
+
+.album-13 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.album-14 {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 10px;
+}
+
+.album-14 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.album-15 {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 10px;
+}
+
+.album-15 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+    nav {
+        gap: 80px;
+    }
+
+    nav a {
+        font-size: 1.4rem;
+    }
+
+    .album-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+        padding: 30px;
+    }
+}
+
+/* Large phones & small tablets (max-width: 768px) */
+@media (max-width: 768px) {
+
+    header {
+        height: 180px;
+        padding: 5px;
+    }
+
+    header h1 {
+        font-size: 1.6rem;
+    }
+
+    nav {
+        gap: 40px;
+    }
+
+    nav a {
+        font-size: 1.2rem;
+    }
+
+    .album-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 20px;
+    }
+}
+
+/* Mobile Phones (max-width: 480px) */
+@media (max-width: 480px) {
+
+    header {
+        height: 150px;
+        padding: 5px;
+    }
+
+    header h1 {
+        font-size: 1.2rem;
+    }
+
+    nav {
+        gap: 20px;
+    }
+
+    nav a {
+        font-size: 1rem;
+    }
+
+    .album-container {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .album-1,
+    .album-2,
+    .album-3,
+    .album-4,
+    .album-5,
+    .album-6,
+    .album-7,
+    .album-8,
+    .album-9,
+    .album-10,
+    .album-11,
+    .album-12,
+    .album-13,
+    .album-14,
+    .album-15 {
+        padding: 8px;
+        border-radius: 8px;
+    }
 }
