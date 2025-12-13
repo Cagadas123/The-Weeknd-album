@@ -310,7 +310,7 @@ footer {
 @media (min-width: 1025px) and (max-width: 1440px) {
     .album-container {
         grid-template-columns: repeat(3, 1fr);
-        gap: 30px;
+        gap: 20px;
         padding: 40px;
     }
 }
@@ -319,7 +319,7 @@ footer {
 /* Tablets (max-width: 1024px) */
 @media (max-width: 1024px) {
     nav {
-        gap: 90px;
+        gap: 75px;
     }
 
     nav a {
