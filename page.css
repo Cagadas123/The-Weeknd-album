@@ -302,7 +302,7 @@ footer {
 /* Tablets (max-width: 1024px) */
 @media (max-width: 1024px) {
     nav {
-        gap: 80px;
+        gap: 90px;
     }
 
     nav a {
@@ -329,7 +329,7 @@ footer {
     }
 
     nav {
-        gap: 40px;
+        gap: 50px;
     }
 
     nav a {
