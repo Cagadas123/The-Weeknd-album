@@ -280,6 +280,25 @@ nav a {
     object-fit: cover;
 }
 
+footer {
+    text-align: center;
+    font-size: larger;
+    padding: 20px;
+    background-color: gray;
+    color: #000000;
+    border-radius: 10px;
+}
+
+/* Laptop (min-width: 1025px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .album-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        padding: 40px;
+    }
+}
+
+
 /* Tablets (max-width: 1024px) */
 @media (max-width: 1024px) {
     nav {
