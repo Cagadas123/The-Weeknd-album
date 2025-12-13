@@ -1,9 +1,9 @@
 
-.body {
+body2 {
     background-color: black;
     color: #ffffff;
 }
-.header {
+header2 {
     background-image: url("https://tse4.mm.bing.net/th/id/OIP.fsEPzW6Dhjps0Xaw0YnrLQHaFj?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3");
     background-size: cover;
     background-position: center;
@@ -14,19 +14,19 @@
     padding: 5px;
 }
 
-.header h1 {
+header2 h1 {
     text-align: center;
     font-size: 2rem;
     margin: 10;
 }
 
-.nav {
+nav2 {
     display: flex;
     justify-content: center;
     gap: 200px;
 }
 
-.nav a {
+nav2 a {
     color: white;
     text-decoration: none;
     font-size: 1.8rem;
@@ -297,7 +297,7 @@
     object-fit: cover;
 }
 
-.footer {
+footer2 {
     text-align: center;
     font-size: larger;
     padding: 20px;
@@ -318,11 +318,11 @@
 
 /* Tablets (max-width: 1024px) */
 @media (max-width: 1024px) {
-    .nav {
+    nav2 {
         gap: 90px;
     }
 
-    .nav a {
+    nav2 a {
         font-size: 1.4rem;
     }
 
@@ -336,20 +336,20 @@
 /* Large phones & small tablets (max-width: 768px) */
 @media (max-width: 768px) {
 
-    .header {
+    header2 {
         height: 180px;
         padding: 5px;
     }
 
-    .header h1 {
+    header2 h1 {
         font-size: 1.6rem;
     }
 
-    .nav {
+    nav2 {
         gap: 50px;
     }
 
-    .nav a {
+    nav2 a {
         font-size: 1.2rem;
     }
 
@@ -363,20 +363,20 @@
 /* Mobile Phones (max-width: 480px) */
 @media (max-width: 480px) {
 
-    .header {
+    header2 {
         height: 150px;
         padding: 5px;
     }
 
-    .header h1 {
+    header2 h1 {
         font-size: 1.2rem;
     }
 
-    .nav {
+    nav2 {
         gap: 20px;
     }
 
-    .nav a {
+    nav2 a {
         font-size: 1rem;
     }
 
