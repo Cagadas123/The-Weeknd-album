@@ -32,7 +32,7 @@ nav a {
     font-size: 1.8rem;
 }
 
-.album-container1 {
+.album-container {
     display: grid;
     grid-template-columns: repeat(3, 500px);
     justify-content: space-between;
