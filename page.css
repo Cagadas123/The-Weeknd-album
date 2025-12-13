@@ -1,9 +1,9 @@
 
-body2 {
+body {
     background-color: black;
     color: #ffffff;
 }
-header2 {
+header {
     background-image: url("https://tse4.mm.bing.net/th/id/OIP.fsEPzW6Dhjps0Xaw0YnrLQHaFj?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3");
     background-size: cover;
     background-position: center;
@@ -14,19 +14,19 @@ header2 {
     padding: 5px;
 }
 
-header2 h1 {
+header h1 {
     text-align: center;
     font-size: 2rem;
     margin: 10;
 }
 
-nav2 {
+nav {
     display: flex;
     justify-content: center;
     gap: 200px;
 }
 
-nav2 a {
+nav a {
     color: white;
     text-decoration: none;
     font-size: 1.8rem;
@@ -297,7 +297,7 @@ nav2 a {
     object-fit: cover;
 }
 
-footer2 {
+footer {
     text-align: center;
     font-size: larger;
     padding: 20px;
@@ -318,11 +318,11 @@ footer2 {
 
 /* Tablets (max-width: 1024px) */
 @media (max-width: 1024px) {
-    nav2 {
+    nav {
         gap: 90px;
     }
 
-    nav2 a {
+    nav a {
         font-size: 1.4rem;
     }
 
@@ -336,20 +336,20 @@ footer2 {
 /* Large phones & small tablets (max-width: 768px) */
 @media (max-width: 768px) {
 
-    header2 {
+    header {
         height: 180px;
         padding: 5px;
     }
 
-    header2 h1 {
+    header h1 {
         font-size: 1.6rem;
     }
 
-    nav2 {
+    nav {
         gap: 50px;
     }
 
-    nav2 a {
+    nav a {
         font-size: 1.2rem;
     }
 
@@ -363,20 +363,20 @@ footer2 {
 /* Mobile Phones (max-width: 480px) */
 @media (max-width: 480px) {
 
-    header2 {
+    header {
         height: 150px;
         padding: 5px;
     }
 
-    header2 h1 {
+    header h1 {
         font-size: 1.2rem;
     }
 
-    nav2 {
+    nav {
         gap: 20px;
     }
 
-    nav2 a {
+    nav a {
         font-size: 1rem;
     }
 
