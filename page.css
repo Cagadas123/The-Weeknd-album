@@ -1,37 +1,38 @@
-body {
+
+.body {
     background-color: black;
     color: #ffffff;
 }
-header {
+.header {
     background-image: url("https://tse4.mm.bing.net/th/id/OIP.fsEPzW6Dhjps0Xaw0YnrLQHaFj?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3");
     background-size: cover;
     background-position: center;
     height: 250px;
     display: flex;
-    flex-direction: column;     /* Arrange items top → bottom */
-    justify-content: space-between; /* Push title to top, nav to bottom */
+    flex-direction: column;
+    justify-content: space-between;
     padding: 5px;
 }
 
-header h1 {
+.header h1 {
     text-align: center;
     font-size: 2rem;
     margin: 10;
 }
 
-nav {
+.nav {
     display: flex;
-    justify-content: center;     /* Center the nav links horizontally */
+    justify-content: center;
     gap: 200px;
 }
 
-nav a {
+.nav a {
     color: white;
     text-decoration: none;
     font-size: 1.8rem;
 }
 
-.album-container {
+.album-container1 {
     display: grid;
     grid-template-columns: repeat(3, 500px);
     justify-content: space-between;
@@ -50,6 +51,29 @@ nav a {
     cursor: pointer;
     transform: scale(1.1);
     transition: 0.3s;
+}
+
+.card-body {
+    border-radius: 10px;
+    background-color: rgb(59, 57, 57);
+}
+
+.card-title {
+    font-family: 'Times New Roman', Times, serif;
+    color: beige;
+    
+}
+
+.card-text {
+    font-family: 'Times New Roman', Times, serif
+}
+
+.date {
+  font-size: 15px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 6px;
+  letter-spacing: 0.2px;
 }
 
 .album-1 {
@@ -77,13 +101,6 @@ nav a {
     object-fit: cover;
 }
 
-.date {
-  font-size: 15px;
-  font-weight: 400;
-  color: rgba(255, 255, 255, 0.6);  /* semi-transparent gray */
-  margin-top: 6px;
-  letter-spacing: 0.2px;
-}
 
 .album-3 {
     background-color: #1e1e1e;
@@ -280,7 +297,7 @@ nav a {
     object-fit: cover;
 }
 
-footer {
+.footer {
     text-align: center;
     font-size: larger;
     padding: 20px;
@@ -301,11 +318,11 @@ footer {
 
 /* Tablets (max-width: 1024px) */
 @media (max-width: 1024px) {
-    nav {
+    .nav {
         gap: 90px;
     }
 
-    nav a {
+    .nav a {
         font-size: 1.4rem;
     }
 
@@ -319,20 +336,20 @@ footer {
 /* Large phones & small tablets (max-width: 768px) */
 @media (max-width: 768px) {
 
-    header {
+    .header {
         height: 180px;
         padding: 5px;
     }
 
-    header h1 {
+    .header h1 {
         font-size: 1.6rem;
     }
 
-    nav {
+    .nav {
         gap: 50px;
     }
 
-    nav a {
+    .nav a {
         font-size: 1.2rem;
     }
 
@@ -346,20 +363,20 @@ footer {
 /* Mobile Phones (max-width: 480px) */
 @media (max-width: 480px) {
 
-    header {
+    .header {
         height: 150px;
         padding: 5px;
     }
 
-    header h1 {
+    .header h1 {
         font-size: 1.2rem;
     }
 
-    nav {
+    .nav {
         gap: 20px;
     }
 
-    nav a {
+    .nav a {
         font-size: 1rem;
     }
 
