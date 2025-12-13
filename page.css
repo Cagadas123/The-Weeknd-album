@@ -36,7 +36,6 @@ nav a {
 .album-container {
     display: grid;
     grid-template-columns: repeat(3, 500px);
-    justify-content: space-between;
     gap: 20px;
     padding: 50px;
     
