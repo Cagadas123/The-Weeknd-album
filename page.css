@@ -1,5 +1,4 @@
 
-
 body {
     background-color: black;
     color: #ffffff;
@@ -10,8 +9,8 @@ header {
     background-position: center;
     height: 250px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: column;     /* Arrange items top → bottom */
+    justify-content: space-between; /* Push title to top, nav to bottom */
     padding: 5px;
 }
 
@@ -23,7 +22,7 @@ header h1 {
 
 nav {
     display: flex;
-    justify-content: center;
+    justify-content: center;     /* Center the nav links horizontally */
     gap: 200px;
 }
 
@@ -36,6 +35,7 @@ nav a {
 .album-container {
     display: grid;
     grid-template-columns: repeat(3, 500px);
+    justify-content: space-between;
     gap: 20px;
     padding: 50px;
     
@@ -71,7 +71,7 @@ nav a {
 .date {
   font-size: 15px;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);  /* semi-transparent gray */
   margin-top: 6px;
   letter-spacing: 0.2px;
 }
@@ -306,23 +306,20 @@ footer {
     border-radius: 10px;
 }
 
-/* Laptop & Desktop */
-@media (min-width: 1025px) {
+/* Laptop (min-width: 1025px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
     .album-container {
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-columns: repeat(3, 1fr);
         gap: 30px;
         padding: 40px;
     }
-
-    nav {
-        gap: 120px;
-    }
 }
 
-/* Tablets */
+
+/* Tablets (max-width: 1024px) */
 @media (max-width: 1024px) {
     nav {
-        gap: 75px;
+        gap: 90px;
     }
 
     nav a {
@@ -330,16 +327,18 @@ footer {
     }
 
     .album-container {
-        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        grid-template-columns: repeat(2, 1fr);
         gap: 25px;
         padding: 30px;
     }
 }
 
-/* Large phones & small tablets */
+/* Large phones & small tablets (max-width: 768px) */
 @media (max-width: 768px) {
+
     header {
         height: 180px;
+        padding: 5px;
     }
 
     header h1 {
@@ -355,16 +354,18 @@ footer {
     }
 
     .album-container {
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-template-columns: repeat(2, 1fr);
         gap: 20px;
         padding: 20px;
     }
 }
 
-/* Mobile phones */
+/* Mobile Phones (max-width: 480px) */
 @media (max-width: 480px) {
+
     header {
         height: 150px;
+        padding: 5px;
     }
 
     header h1 {
@@ -383,5 +384,24 @@ footer {
         grid-template-columns: 1fr;
         gap: 15px;
         padding: 15px;
+    }
+
+    .album-1,
+    .album-2,
+    .album-3,
+    .album-4,
+    .album-5,
+    .album-6,
+    .album-7,
+    .album-8,
+    .album-9,
+    .album-10,
+    .album-11,
+    .album-12,
+    .album-13,
+    .album-14,
+    .album-15 {
+        padding: 8px;
+        border-radius: 8px;
     }
 }
